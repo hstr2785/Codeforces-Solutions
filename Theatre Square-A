@@ -1,0 +1,18 @@
+    #include <iostream>
+    using namespace std;
+   
+    int main() {
+     
+       long long n,m,a,c,c1;
+       c=0;
+       c1=0;
+       cin>> n >> m >> a;
+       c=m/a;
+       if(m%a!=0)
+          c=c+1;
+       c1=n/a;
+       if(n%a!=0)
+         c1=c1+1;
+       cout << c*c1 <<endl;
+       return 0;
+    }
